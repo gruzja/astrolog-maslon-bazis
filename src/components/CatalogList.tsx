@@ -13,7 +13,7 @@ interface Props {
 
 function CatalogList({ objects, onSelect }: Props) {
     return (
-        <div>
+        <div className="catalog-list">
             {objects.map((obj) => (
                 <div key={obj.id} onClick={() => onSelect(obj)}>
                     <img src={obj.imageUrl} alt={obj.name} width={60} />

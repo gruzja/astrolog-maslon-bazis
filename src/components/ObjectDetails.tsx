@@ -1,4 +1,3 @@
-//
 interface CelestialObject {
     id: number;
     name: string;
